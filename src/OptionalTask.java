@@ -7,8 +7,8 @@ public class OptionalTask {
     public static void main(String args[]) {
 
         //1 task
-        File inputFile = new File("C:\\Users\\77751\\Documents\\epam\\stage-1\\ifIWereABoy.txt");
-        File outputFile = new File("C:\\Users\\77751\\Documents\\epam\\stage-1\\ifIWereABoy-output.txt");
+        File inputFile = new File("./resources/ifIWereABoy.txt");
+        File outputFile = new File("./out/ifIWereABoy-output.txt");
         try {
             InputStream inputStream = new FileInputStream(inputFile);
             OutputStream outputStream = new FileOutputStream(outputFile);
@@ -31,16 +31,16 @@ public class OptionalTask {
 
             //6 task
 
-            Collections.sort(list);
+         //   Collections.sort(list);
 
-            System.out.println();
+         //   System.out.println();
         } catch (FileNotFoundException e) {
-            e.printStackTrace();
+           e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
 
 
-    }
+  }
 
 }
